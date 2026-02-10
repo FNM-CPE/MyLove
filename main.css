@@ -1,0 +1,44 @@
+/*body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+p {
+    font-size: 12px;
+    line-height: 8px;
+    text-align: justify;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url(ebccc8b4-be5f-4e79-98c1-88e0c48983d1.jpg) no-repeat center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(225, 225, 255, 0);
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+p {
+    font-size: 12px;
+    line-height: 8px;
+    text-align: justify;
+
+    /* ภาพพื้นหลัง */
+    background: url(ebccc8b4-be5f-4e79-98c1-88e0c48983d1.jpg) no-repeat center;
+
+    /* ปรับขนาดภาพให้พอดีตัวอักษร */
+    background-size: contain;
+
+    /* ตัดภาพให้อยู่ในตัวอักษร */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* ป้องกันการเลื่อนภาพแปลกๆ */
+    background-attachment: scroll;
+}
